@@ -20,7 +20,7 @@ Yes, you can use custom SSL certificates to secure connections between users and
 An origin is the source of the content CloudFront delivers. It can be an Amazon S3 bucket, an EC2 instance, an Elastic Load Balancer, or even an HTTP server.
 
 ### 8. How can you control who accesses content in CloudFront?
-You can use CloudFront signed URLs or cookies to restrict access to content based on user credentials.
+You can use CloudFront signed URLs or cookies to restrict access to content based on user credentials by OAC(Origin Access Control), OAI(Origin Access Identity) 
 
 ### 9. What are cache behaviors in CloudFront?
 Cache behaviors define how CloudFront handles different types of requests. They include settings like TTL, query string forwarding, and more.
